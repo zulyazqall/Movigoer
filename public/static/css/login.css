@@ -1,0 +1,19 @@
+body {
+    background: url(../img/bg.png) no-repeat fixed center center;
+	/* background: rgba(0, 0, 200, 1); */
+    background-size: cover;
+}
+
+.body, .body > .valign-wrapper {
+    height: 100vh;
+}
+
+.login-logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#form_login .card-title {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 2rem;
+}

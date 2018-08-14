@@ -1,0 +1,69 @@
+body {
+    /* background: url(static/img/bg.png) no-repeat fixed center center; */
+	background: rgba(0, 0, 200, 1);
+    background-size: cover;
+}
+
+.sidenav.user_grup {
+    font-weight: bold;
+    padding-left: 1rem;
+    font-weight: bold;
+    background: teal;
+    color: #ffffff;
+}
+
+.alert {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.alert.error {
+    display: block;
+    background: rgba(255, 0, 0, 1);
+    padding: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.alert.success {
+    /*color: rgb(0, 137, 0);*/
+    display: block;
+    background: rgba(0, 137, 0, 1);
+    padding: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.alert.info {
+    color: rgb(255, 255, 255);
+    display: block;
+    background: rgba(0, 0, 200, 1);
+    padding: 1rem;
+}
+
+form .msg-error {
+    color: red;
+    padding-bottom: .5rem;
+    margin-top: -1rem;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 11px;
+    word-break: keep-all;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+form .form-separator {
+    height:3rem;
+    border-top:1px dashed rgba(128, 128, 128, .5);
+    margin-top:2rem !important;
+    display: block;
+    clear: both;
+}
+
+.side-nav {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+nav, .topbar {
+    background-color: teal;
+}
