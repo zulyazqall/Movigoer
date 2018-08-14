@@ -22,6 +22,5 @@ Moviegoer is CMS for Report numbers of audience in cinema. This project build wi
 username : admin@movie.com
 password : admin123
 **user/cinema**
-username :user1@movie.com
+username : user1@movie.com
 password : user123
-```
